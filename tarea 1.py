@@ -8,7 +8,7 @@ class superficie:
     def calculo(self):
         r=int(input("***Ingrese un Numero Real***: "))
         s=r*3.1416
-        print("La superficie de un circulo con un Radio de:{}: es igual a:{}".format(r,s))
+        print("La superficie de un circulo con un Radio de: {} es igual a: {}".format(r,s))
 
 cal1=superficie()
 cal1.calculo()
@@ -22,7 +22,7 @@ class ejecicios:
         tc=int(input("*Ingrese EL Total de las compras*: "))
         d=tc*0.15
         cp=tc-d
-        print("El total de la compra es:{}".format(cp))
+        print("El total de la compra es de: {}, Su descuento del 15%: {}, su valor a cancelar: {}".format(tc,d,cp))
 
 
 cal1=ejecicios()
@@ -43,7 +43,7 @@ class comision:
         com=TotalV+0.1
         TotalR=suelB+com
 
-        print("EL total a recibir sera de:{} dolares".format(TotalR))
+        print("Su sueldo es de: {}, Usted posee una comision de: {}, y EL total a recibir sera de: {} dolares".format(suelB,com,TotalR))
 
 cal1=comision()
 cal1.calculo()
@@ -57,7 +57,7 @@ class calificacion:
        cal=float(input("Ingrese su calificacion: "))
        if cal >= 7:
             print("Usted ha Aprovado, felicidades")
-      
+           
 
 cal1=calificacion()
 cal1.calculo()
@@ -89,7 +89,7 @@ class sueldo:
             sueldN=sueldI+(sueldI*0.10)
         else:
             sueldN=sueldI
-            print("su nuevo sueldo es de:{} dolares".format(sueldN))       
+        print("su nuevo sueldo es de:{} dolares".format(sueldN))       
 
 cal1=sueldo()
 cal1.calculo()
@@ -114,7 +114,7 @@ class HExtra:
             pt=ph*40+phe
         else:
             pt=ph*ht
-            print("EL pago total de horas trabajadas es de:{}".format(pt))
+        print("EL pago total de horas trabajadas es de:{}, posee un total de horas extras de: {}, el pago por las horas estras son de: {}".format(pt,he,phe))
 
 clas1=HExtra()
 clas1.calculo()
